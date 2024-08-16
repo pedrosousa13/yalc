@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["es2015"],
+    "target": "es2016",
+    "lib": ["es6"],
     "module": "commonjs",
     "declaration": true,
     "sourceMap": true,
@@ -17,5 +17,6 @@
   "formatCodeOptions": {
     "indentSize": 2,
     "tabSize": 2
-  }
+  },
+  "exclude": ["node_modules"]
 }
